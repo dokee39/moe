@@ -1,18 +1,24 @@
 import type { Site, Ui, Features } from './types'
 
 export const SITE: Site = {
-  website: 'https://astro-antfustyle-theme.vercel.app/',
+  website: 'https://dokee.moe/',
   base: '/',
-  title: 'Astro AntfuStyle Theme',
+  title: 'dokee',
   description:
-    'A customizable, feature-rich Astro theme for blog and portfolio creation',
-  author: 'Stephanie Lin',
-  lang: 'en',
-  ogLocale: 'en_US',
+    'RMer',
+  author: 'dokee',
+  lang: 'zh',
+  ogLocale: 'zh_CN',
 }
 
 export const UI: Ui = {
   internalNavs: [
+    {
+      path: '/wiki',
+      title: 'Wiki',
+      displayMode: 'alwaysText',
+      text: 'Wiki',
+    },
     {
       path: '/blog',
       title: 'Blog',
@@ -25,26 +31,19 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Projects',
     },
-    {
-      path: '/changelog',
-      title: 'Changelog',
-      displayMode: 'iconToTextOnMobile',
-      text: 'Changelog',
-      icon: 'i-ri-draft-line',
-    },
   ],
   socialLinks: [
     {
-      link: 'https://github.com/lin-stephanie/astro-antfustyle-theme',
-      title: 'AntfuStyle on Github',
+      link: 'https://github.com/dokee39',
+      title: 'Github',
       displayMode: 'alwaysIcon',
       icon: 'i-uil-github-alt',
     },
     {
-      link: 'https://x.com/astrodotbuild',
-      title: 'Astro on Twitter',
+      link: 'https://space.bilibili.com/355620078/',
+      title: 'bilibili',
       displayMode: 'alwaysIcon',
-      icon: 'i-ri-twitter-x-fill',
+      icon: 'i-mingcute-bilibili-line',
     },
   ],
   navBarLayout: {
@@ -60,27 +59,27 @@ export const UI: Ui = {
   },
   tabbedLayoutTabs: [
     { title: 'Changelog', path: '/changelog' },
-    { title: 'AstroBlog', path: '/feeds' },
-    { title: 'AstroStreams', path: '/streams' },
+    { title: '硬件', path: '/feeds' },
+    { title: 'Software', path: '/streams' },
   ],
   groupView: {
-    maxGroupColumns: 3,
+    maxGroupColumns: 2,
     showGroupItemColorOnHover: true,
   },
   githubView: {
     monorepos: [
-      'withastro/astro',
-      'withastro/starlight',
-      'lin-stephanie/astro-loaders',
+      //'withastro/astro',
+      //'withastro/starlight',
+      //'lin-stephanie/astro-loaders',
     ],
     mainLogoOverrides: [
-      [/starlight/, 'https://starlight.astro.build/favicon.svg'],
+      //[/starlight/, 'https://starlight.astro.build/favicon.svg'],
     ],
     subLogoMatches: [
-      [/theme/, 'i-unjs-theme-colors'],
-      [/github/, 'https://www.svgrepo.com/show/475654/github-color.svg'],
-      [/tweet/, 'i-logos-twitter'],
-      [/bluesky/, 'i-logos-bluesky'],
+      //[/theme/, 'i-unjs-theme-colors'],
+      //[/github/, 'https://www.svgrepo.com/show/475654/github-color.svg'],
+      //[/tweet/, 'i-logos-twitter'],
+      //[/bluesky/, 'i-logos-bluesky'],
     ],
   },
 }

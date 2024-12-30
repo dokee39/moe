@@ -100,8 +100,10 @@ export default defineConfig({
     }),
     presetWebFonts({
       fonts: {
+        //'https://static.zeoseven.com/zsft/95/main/result.css',
+        //sans: 'LXGW WenKai GB',
         sans: 'Inter:400,600,800',
-        mono: 'DM Mono:400,600',
+        mono: 'Hack:400,600',
         condensed: 'Roboto Condensed',
       },
     }),
