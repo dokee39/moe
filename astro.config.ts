@@ -12,16 +12,10 @@ import { SITE } from './src/config'
 export default defineConfig({
   site: SITE.website,
   base: SITE.base,
-  integrations: [
-    sitemap(),
-    robotsTxt(),
-    unocss({
-      // https://unocss.dev/integrations/astro#style-reset
-      injectReset: true,
-    }),
-    astroExpressiveCode(),
-    mdx(),
-  ],
+  integrations: [sitemap(), robotsTxt(), unocss({
+    // https://unocss.dev/integrations/astro#style-reset
+    injectReset: true,
+  }), astroExpressiveCode(), mdx()],
   markdown: {
     syntaxHighlight: false,
     remarkPlugins,

@@ -20,6 +20,7 @@
     "postbuild": "pagefind --site dist && del-cli \"dist/pagefind/*ui*\""
   },
   "dependencies": {
+    "@astrojs/tailwind": "^5.1.4",
     "astro": "^4.16.18",
     "nprogress": "^0.2.0"
   },

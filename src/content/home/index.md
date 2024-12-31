@@ -1,52 +1,24 @@
-Glad you made it here! This is a customizable, feature-rich :link[Astro]{id=withastro/astro} theme for blog and portfolio creation, inspired by the minimalist style of :link[antfu.me]{link=https://antfu.me/ imageUrl=https://antfu.me/favicon.svg}. The design has been refined and its functionality expanded for greater flexibility.
+### Welcome to :link[dokee.moe]{link=https://dokee.moe/ imageUrl=https://dokee.moe/favicon.ico}
 
-This live demo will guide you through setup and customization, offering helpful insights along the way. Enjoy exploring all the features this theme provides! ✨
 
-**Optimized Infrastructure**
+**I’m glad you made it here!**
+<br>
+I'm dokee, a student passionate about robotics, and this is where I share my journey, projects, and insights into the fascinating world of technology.
 
-- Zero UI Framework
-- [SEO-friendly](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Auto-generated RSS Feed
-- Support for [Subpath Deployment](./blog/basic-configuration/#configuring-site)
-- Optimized Local Image Handling
-- VS Code Snippets for Quick Coding
-- Well-organized [Project Structure](./blog/project-structure/)
+---
 
-**Content Management**
-
-- Type Safety
-- Markdown & MDX Support
-- Table of Contents Generation
-- [Dynamic OG Image Generation](./blog/about-open-graph-images/)
-- KaTeX Math Integration
-- [Callouts (Alerts/Admonitions)](./blog/markdown-mdx-extended-features/#callouts-alerts--admonitions)
-- [Directive Sugar](./blog/markdown-mdx-extended-features/#image-caption--link) for Both Markdown/MDX
-- [Code Syntax Highlighting & Annotations](./blog/markdown-mdx-extended-features/#fully-featured-code-blocks)
-- Customizable Animated Backgrounds (Take a look around!)
-- [Showcase Your GitHub Releases and PRs](./blog/customizing-github-activity-pages)
-
-**User Experience**
-
-- [Search Functionality](./blog/faqs-and-known-issues/#search-functionality)
-- [Accessibility Enhancements](./blog/faqs-and-known-issues/#about-seo-and-accessibility)
-- Smooth View Transitions
-- Responsive Layout
-- Light & Dark Modes Toggle
-- Loading Progress Indicator
-- Social Media Sharing Features
-- [Image Zoom](./blog/faqs-and-known-issues/#image-zoom) Preview
-
-> Preparing to upgrade to Astro 5 with more features! 🚀
+### UNDER CONSTRUCTION...
+wiki | blog | projects | actions | github | bilibili | links
 
 ---
 
 <p>
-  Visit the theme's
+  Visit the site's
   <a
     class="inline-block ml-1.5 op-75 hover:op-100"
-    href="https://github.com/lin-stephanie/astro-antfustyle-theme"
+    href="https://github.com/dokee39/moe"
     target="_blank"
-    aria-label="AntfuStyle on GitHub (external link)"
+    aria-label="dokee.moe on GitHub (external link)"
   >
     <span i-simple-icons-github></span>
     GitHub repo
@@ -57,64 +29,41 @@ This live demo will guide you through setup and customization, offering helpful 
   <span class="inline-block mr-1.5 mb-2">Find me on</span>
   <span class="inline-flex flex-wrap gap-2 op-75 hover:op-100">
     <a
-      href="https://github.com/lin-stephanie/astro-antfustyle-theme"
+      href="https://github.com/dokee39"
       target="_blank"
       aria-label="Find me on GitHub (external link)"
     >
-      <span i-simple-icons-github></span> GitHub
+      <span i-uil-github-alt></span> GitHub
     </a>
     <a
-      href="https://github.com/lin-stephanie/astro-antfustyle-theme"
+      href="https://space.bilibili.com/355620078/"
       target="_blank"
-      aria-label="Find me on Twitter (external link)"
+      aria-label="Find me on bilibili (external link)"
     >
-      <span i-ri-twitter-x-fill></span> Twitter
+      <span i-mingcute-bilibili-line></span> bilibili
     </a>
     <a
-      href="https://github.com/lin-stephanie/astro-antfustyle-theme"
+      href="mailto:dokee.39@gmail.com"
       target="_blank"
-      aria-label="Find me on Instagram (external link)"
+      aria-label="Find me on bilibili (external link)"
     >
-      <span i-simple-icons-instagram></span> Instagram
-    </a>
-    <a
-      href="https://github.com/lin-stephanie/astro-antfustyle-theme"
-      target="_blank"
-      aria-label="Find me on Mastodon (external link)"
-    >
-      <span i-simple-icons-mastodon></span> Mastodon
-    </a>
-    <a
-      href="https://github.com/lin-stephanie/astro-antfustyle-theme"
-      target="_blank"
-      aria-label="Find me on YouTube (external link)"
-    >
-      <span i-simple-icons-youtube></span> YouTube
+      <span i-fluent-mail-16-regular></span> mail
     </a>
   </span>
 </p>
 
 ---
 
-If you find this theme helpful, consider supporting the project maintainer or the style designer. Your support means more than you know. Thank you! ❤️
+If you find the content on this site helpful, consider supporting the maintainer. Your support means more than you know. Thank you! ❤️
 
 <div class="flex flex-wrap gap-4">
   <a
     class="btn-rose"
-    href="https://github.com/sponsors/lin-stephanie"
+    href="/404"
     target="_blank"
-    aria-label="Support Stephanie Lin (external link)"
+    aria-label="Support dokee (external link)"
   >
     <div class="i-ph-heart-duotone transition-all ease-out duration-200"></div>
-    Support Stephanie Lin (Maintainer)
-  </a>
-  <a
-    class="btn-yellow"
-    href="https://github.com/sponsors/antfu"
-    target="_blank"
-    aria-label="Support Anthony Fu (external link)"
-  >
-    <div class="i-ph-lightning-duotone transition-all ease-out duration-200"></div>
-    Support Anthony Fu (Designer)
+    Support me
   </a>
 </div>

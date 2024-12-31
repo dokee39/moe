@@ -58,9 +58,9 @@ export const UI: Ui = {
     mergeOnMobile: true,
   },
   tabbedLayoutTabs: [
-    { title: 'Changelog', path: '/changelog' },
-    { title: '硬件', path: '/feeds' },
-    { title: 'Software', path: '/streams' },
+    { title: 'Recent', path: '/wiki' },
+    { title: 'Software', path: '/wiki/software' },
+    { title: 'Hardware', path: '/wiki/hardware' },
   ],
   groupView: {
     maxGroupColumns: 2,
