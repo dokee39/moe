@@ -31,6 +31,12 @@ export const UI: Ui = {
       displayMode: 'alwaysText',
       text: 'Projects',
     },
+    {
+      path: '/activity',
+      title: 'Activity',
+      displayMode: 'alwaysIcon',
+      icon: 'i-eva-activity-fill',
+    },
   ],
   socialLinks: [
     {
@@ -91,10 +97,10 @@ export const UI: Ui = {
  */
 export const FEATURES: Features = {
   share: [
-    true,
+    false,
     {
-      twitter: [true, '@ste7lin'],
-      mastodon: [true, '@ste7lin@fairy.id'],
+      twitter: [true, '@dokee_39'],
+      mastodon: false,
       facebook: false,
       pinterest: false,
       reddit: false,
@@ -113,7 +119,7 @@ export const FEATURES: Features = {
     },
   ],
   ogImage: [
-    true,
+    false,
     {
       authorOrBrand: `${SITE.title}`,
       fallbackTitle: `${SITE.description}`,
